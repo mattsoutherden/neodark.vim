@@ -41,6 +41,11 @@ If you want to adjust the visibility of comments, listchars, and specialkey, put
 let g:neodark#visibility = 'low' " options: 'low'|'high',  default: ''
 ```
 
+If you want solid vertical split matching the statusline, put this **before `colorscheme neodark`**
+```vim
+let g:neodark#solid_vertsplit = 1 " default: 0
+```
+
 [Airline](https://github.com/vim-airline/vim-airline) and [lightline](https://github.com/itchyny/lightline.vim) themes are also included. For lightline,
 
 ```vim
